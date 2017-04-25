@@ -3,7 +3,7 @@
 // @namespace   https://github.com/yewton
 // @description Show components as labels in JIRA Scrum
 // @include     https://www.example.org/secure/RapidBoard.jspa*
-// @version     0.0.1
+// @version     0.0.2
 // @grant       GM_xmlhttpRequest
 // @require     https://code.jquery.com/jquery-1.12.0.min.js
 // ==/UserScript==
