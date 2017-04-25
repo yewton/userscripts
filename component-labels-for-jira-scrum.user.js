@@ -22,7 +22,7 @@ var observer = new MutationObserver(function(mutations, observer) {
     if (!!!key) return;
 
     var id = $issue.data('issue-id');
-    var $end = $issue.find('.ghx-end');
+    var $end = $issue.find('span.ghx-end');
 
     $.get('/rest/api/2/issue/' + key + '?fields=components', function (data) {
       data.fields.components.forEach(function (component) {
